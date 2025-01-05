@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 98vw;
+   
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+header{
+    background-color: #6E4082;
+    width: 100vw;
+    height: 100px;    
+}
+
+#nav{
+    text-align: center;
+    line-height: 100px;
+    color: rgba(247, 243, 243, 0.959);
+    font-size: 25px;
+}
+
+article{
+    background-color: #D9D9D9;
+    width: 500px;
+    height: 650px;
+    position: relative;
+    left: 69%;
+    margin: 80px 0px 70px 0px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+aside{
+    background-color: #D9D9D9;
+    width: 900px;
+    height: 190px;
+    position: relative;
+    bottom: 260px;
+    left: 15%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+section{
+    width: 900px;
+    height: 400px;
+    position: relative;
+    bottom: 910px;
+    left: 15%;
+}
+
+.box1{
+    background-color: #D9D9D9;
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    position: absolute;
+     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.box2{
+    background-color: #D9D9D9;
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    position: absolute;
+    left: 55.5%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#form-create{
+    line-height: 50px;
+    color: rgb(0, 0, 0);
+    
+}
+
+#name{
+    width: %;
+    height: 50px;
+}
+
+
+
