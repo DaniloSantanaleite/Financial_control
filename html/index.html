@@ -23,13 +23,38 @@
     <main>
         <article>
             <h1 id="form-create">CADASTRO ALUNO</h1>
-            <form action="">
-                NOME:<input type="text" name="name" id="name" placeholder="NOME COMPLETO">
+            
+            <form id="cadastro" action="">
+               <p>NOME:</p><input type="text" name="myname" id="myname" placeholder="NOME COMPLETO">
+
+               <p>NOME DO RESPONSÁVEL:</p><input type="text" name="name" id="name" 
+               placeholder="NOME COMPLETO">
+
+               <p>IDADE DO ALUNO:</p><input type="date" name="idade" id="idade">
+
+               <p>TEL.:</p> <input type="tel" name="telefone" id="telefone" placeholder="(11)98117-2310">
                 
+               <p>ENDEREÇO:</p> <input type="text" name="endereco" id="endereco">
+
+               <p>ESCOLA:</p> <input type="text" name="escola" id="escola">
+
+               <p>VALOR DA MENSALIDADE:</p> <input type="number" name="valor" id="valor">
+
+               <p>NÚMERO MATRICULA:</p> <input type="number" name="codigo" id="codigo">
+               
+               <p>DATA DO VENCIMENTO:</p><input type="number" name="diaboleto" id="diaboleto">
+
+               <input type="submit" id="finalizarCadastro" value="Finalizar cadastro">
+
+
             </form>
         </article>
         <aside>
-            <div class="box1"></div>
+            <div class="box1">
+                <h1 id="test">Olá, aluno!</h1>
+
+                <p id="total">R$ </p>
+            </div>
             <div class="box2"></div>
         </aside>
         <section>
@@ -39,5 +64,7 @@
 
     </main>
 </body>
+
+<script src="../js/index.js" ></script>
 
 </html>

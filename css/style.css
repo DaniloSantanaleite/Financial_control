@@ -61,7 +61,8 @@ section{
     height: 300px;
     border-radius: 15px;
     position: absolute;
-     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    bottom: 350px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -72,19 +73,38 @@ section{
     border-radius: 15px;
     position: absolute;
     left: 55.5%;
+    bottom: 350px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 #form-create{
+    width: 100%;
+    text-align: center;
     line-height: 50px;
     color: rgb(0, 0, 0);
+    padding: 20px;
     
 }
 
-#name{
-    width: %;
-    height: 50px;
+#cadastro{
+    position:absolute;
+    width: 500px;
+    height: 650px;
 }
+
+p{
+    margin: 5px;
+}
+
+input{
+    margin: 5px;
+    width: 400px;
+    margin-top: 5px 0px 0px 5px;
+
+}
+
+
+
 
 
 
